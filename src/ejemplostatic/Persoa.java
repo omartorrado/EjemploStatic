@@ -28,9 +28,9 @@ public class Persoa {
         return numPersoas;
     }
     
-    public static void incrementarPersoas(){
-        numPersoas++;
-    }
+//    public static void incrementarPersoas(){
+//        numPersoas++;
+//    }
 
     public String getNome() {
         return nome;
