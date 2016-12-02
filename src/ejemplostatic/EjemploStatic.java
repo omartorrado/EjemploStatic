@@ -20,9 +20,8 @@ public class EjemploStatic {
         //per1.incrementarPersoas(); OBSOLETO, aunque funciona
         per1.visualizar();
         Persoa per2=new Persoa("bb",30);
-        Persoa.incrementarPersoas();
         per2.visualizar();
-        per1.visualizar();
+        System.out.println("Hay un total de "+Persoa.getNumPersoas()+" persoas");
     }
     
 }

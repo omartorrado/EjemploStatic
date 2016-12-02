@@ -15,11 +15,13 @@ public class Persoa {
     private static int numPersoas;
     private String nome;
     private int edad;
-
+    
     public Persoa() {
+        numPersoas++;
     }
 
     public Persoa(String nome, int edad) {
+        numPersoas++;
         this.nome = nome;
         this.edad = edad;
     }
